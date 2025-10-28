@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { background: linear-gradient(180deg, #f8fafc, #eef2ff); }
+.card { @apply bg-white rounded-2xl shadow-md p-6; }
+.btn { @apply px-4 py-2 rounded-md font-medium; }
